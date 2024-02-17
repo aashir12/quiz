@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+</head>
+<body>
+    
+
+    <script>
+        var num=0;
+        var check=0;
+    var bundle=[
+        prompt(`${check} -What is the name of the biggest city of Pakistan \n a-islamabad \n b-rawalpindi \n c-Karachi`),
+        prompt(`${++check} -What is the name of the tallest buidling\n a-Rabi Center \n b-Centorous \n c-Burj Khalifa`),
+        prompt(`${++check} -What is the name national animal of Pakistan \n a-Falcon \n b-Cheeta \n c-Markhor`),
+        prompt(`${++check} What is the name of the national language of Pakistan \n a-Pashto \n b-Punjabi \n c-Urdu`)
+    ];
+
+    var ans=['c','c','c','c'] 
+
+
+    if(bundle[check]==ans[check]){
+    num++;
+ }
+
+ alert(num);
+    </script>
+</body>
+</html>
